@@ -64,10 +64,10 @@ body {
 }
 
 /* Button Positions */
-.roots { bottom: 140px; left: 360px; }
-.trunk { top: 600px; left: 360px; }
+.roots { bottom: 140px; left: 365px; }
+.trunk { top: 600px; left: 365px; }
 .sumi { top: 250px; left: 210px; }
-.abstract { top: 210px; right: 210px; }
+.abstract { top: 250px; right: 210px; }
 
 /* PANEL */
 .panel {
