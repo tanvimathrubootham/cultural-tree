@@ -13,29 +13,27 @@ body {
 /* HEADER */
 .header {
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 5px;
+    margin-top: 25px;
+    margin-bottom: 0px;
 }
 
 .header h1 {
     font-size: 42px;
     font-weight: 600;
-    margin-bottom: 2px;
-    margin-top: 0;
+    margin: 0;
 }
 
 .subtitle {
     font-size: 17px;
     color: #555;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 8px 0 0 0;
 }
 
 /* CONTAINER */
 .container {
     position: relative;
     width: 750px;
-    margin: 5px auto 30px auto;
+    margin: 0 auto 30px auto;
 }
 
 .tree {
@@ -66,8 +64,8 @@ body {
 }
 
 /* Button Positions */
-.roots { bottom: 140px; left: 350px; }
-.trunk { top: 500px; left: 350px; }
+.roots { bottom: 140px; left: 360px; }
+.trunk { top: 600px; left: 360px; }
 .sumi { top: 250px; left: 210px; }
 .abstract { top: 210px; right: 210px; }
 
