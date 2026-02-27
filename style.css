@@ -7,32 +7,38 @@ body {
     color: #2F2F2F;
 }
 
+/* HEADER */
 .header {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 
 .header h1 {
     font-size: 42px;
     font-weight: 600;
+    margin-bottom: 3px;
 }
 
 .subtitle {
     font-size: 17px;
     color: #555;
     margin-top: 0;
+    margin-bottom: 0;
 }
 
+/* CONTAINER */
 .container {
     position: relative;
     width: 750px;
-    margin: 30px auto;
+    margin: 20px auto;
 }
 
 .tree {
     width: 100%;
 }
 
+/* BUTTONS */
 .btn {
     position: absolute;
     width: 46px;
@@ -53,18 +59,20 @@ body {
     background: #3C6E71;
     transform: scale(1.15);
     box-shadow: 0 0 20px rgba(60, 110, 113, 0.5);
+}
 
-/* Adjust these positions visually */
+/* Button Positions */
 .roots { bottom: 120px; left: 370px; }
 .trunk { top: 420px; left: 370px; }
 .sumi { top: 210px; left: 180px; }
 .abstract { top: 160px; right: 250px; }
 
+/* PANEL */
 .panel {
     position: fixed;
-    right: -450px;
+    right: -500px;
     top: 0;
-    width: 400px;
+    width: 420px;
     height: 100%;
     background: white;
     padding: 40px;
