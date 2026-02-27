@@ -25,8 +25,8 @@ body {
 
 .container {
     position: relative;
-    width: 700px;
-    margin: 50px auto;
+    width: 750px;
+    margin: 60px auto;
 }
 
 .tree {
@@ -35,21 +35,27 @@ body {
 
 .btn {
     position: absolute;
-    width: 40px;
-    height: 40px;
+    width: 42px;
+    height: 42px;
     border-radius: 50%;
     border: none;
-    background: rgba(0,0,0,0.5);
+    background: rgba(47, 47, 47, 0.85);
     color: white;
     font-size: 20px;
     cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    background: #3C6E71;
 }
 
 /* Adjust these positions visually */
-.roots { bottom: 50px; left: 300px; }
-.trunk { top: 400px; left: 320px; }
-.sumi { top: 200px; left: 150px; }
-.abstract { top: 150px; right: 150px; }
+.roots { bottom: 60px; left: 330px; }
+.trunk { top: 460px; left: 345px; }
+.sumi { top: 220px; left: 190px; }
+.abstract { top: 160px; right: 190px; }
 
 .panel {
     position: fixed;
@@ -66,6 +72,16 @@ body {
 
 .panel.active {
     right: 0;
+}
+
+.panel h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.panel p {
+    font-size: 18px;
+    line-height: 1.6;
 }
 
 .close {
