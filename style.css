@@ -9,24 +9,26 @@ body {
 
 .header {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .header h1 {
     font-size: 42px;
     font-weight: 600;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
 }
 
 .subtitle {
-    font-size: 18px;
+    font-size: 17px;
     color: #555;
+    margin-top: 0;
 }
 
 .container {
     position: relative;
     width: 750px;
-    margin: 60px auto;
+    margin: 30px auto;
 }
 
 .tree {
@@ -35,27 +37,30 @@ body {
 
 .btn {
     position: absolute;
-    width: 42px;
-    height: 42px;
+    width: 46px;
+    height: 46px;
     border-radius: 50%;
     border: none;
     background: rgba(47, 47, 47, 0.85);
     color: white;
-    font-size: 20px;
+    font-size: 22px;
     cursor: pointer;
-    transition: 0.2s ease;
+    transition: all 0.25s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .btn:hover {
-    transform: scale(1.1);
     background: #3C6E71;
-}
+    transform: scale(1.15);
+    box-shadow: 0 0 20px rgba(60, 110, 113, 0.5);
 
 /* Adjust these positions visually */
-.roots { bottom: 60px; left: 330px; }
-.trunk { top: 460px; left: 345px; }
-.sumi { top: 220px; left: 190px; }
-.abstract { top: 160px; right: 190px; }
+.roots { bottom: 120px; left: 370px; }
+.trunk { top: 420px; left: 370px; }
+.sumi { top: 210px; left: 180px; }
+.abstract { top: 160px; right: 150px; }
 
 .panel {
     position: fixed;
