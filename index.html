@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Layered Selves</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <img src="tree.png" class="tree">
+
+    <!-- Buttons -->
+    <button class="btn roots" onclick="openPanel('roots')">+</button>
+    <button class="btn trunk" onclick="openPanel('trunk')">+</button>
+    <button class="btn sumi" onclick="openPanel('sumi')">+</button>
+    <button class="btn abstract" onclick="openPanel('abstract')">+</button>
+
+</div>
+
+<div id="panel" class="panel">
+    <span class="close" onclick="closePanel()">×</span>
+    <div id="panel-content"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
